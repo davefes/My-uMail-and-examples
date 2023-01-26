@@ -1,7 +1,18 @@
+# uMail (MicroMail) for MicroPython
+# Copyright (c) 2018 Shawwwn <shawwwn1@gmai.com>
+# License: MIT
+
+# Changes:
+# - added debugging
+# - DEFAULT_TIMEOUT = 30
+
+# 26 Jan 2023 D.Festing
+
+
 import usocket
 import utime
 import machine
-import config
+import config 
 
 
 DEFAULT_TIMEOUT = 30 # was 10 sec
