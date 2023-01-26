@@ -142,7 +142,7 @@ def send_csv(date):
     smtp.write(content_disposition)
 
    
- #  send data in 1024 chunks
+ #  send data in 1024 chunks (this was found on the archived micropython forum)
     try:
         with open('datalog.csv', 'rb') as file:
             for chunk in range(0, file_size, chunk_size):
