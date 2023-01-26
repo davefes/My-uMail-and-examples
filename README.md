@@ -4,4 +4,4 @@ A modified umail https://github.com/shawwwn/uMail with lots of debugging incorpo
 Some example mail_functions:
 - sending an alarm,
 - sending a .csv file and
-- sending an image, thanks to pm4r at https://github.com/shawwwn/uMail/issues/2
+- sending an image, thanks to pm4r https://github.com/shawwwn/uMail/issues/2
